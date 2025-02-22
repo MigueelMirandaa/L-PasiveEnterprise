@@ -15,6 +15,7 @@ This script is designed to manage passive enterprises within a FiveM ESX server.
 1. Clone the repository to your local machine.
 2. Navigate to the `L-PasiveEnterprise` directory.
 3. Add the resource to your `server.cfg`:
+4. Implement the `sql.sql` file on your database:
 
 ```plaintext
 ensure L-PasiveEnterprise
