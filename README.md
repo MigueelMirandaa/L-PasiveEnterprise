@@ -1,9 +1,8 @@
-
 # L-PasiveEnterprise
 
 ## Overview
 
-This script is designed to manage passive enterprises within the project. It automates various tasks and ensures smooth operation of the enterprises.
+This script is designed to manage passive enterprises within a FiveM ESX server. It automates various tasks and ensures smooth operation of the enterprises.
 
 ## Features
 
@@ -15,15 +14,17 @@ This script is designed to manage passive enterprises within the project. It aut
 
 1. Clone the repository to your local machine.
 2. Navigate to the `L-PasiveEnterprise` directory.
-3. Follow the setup instructions provided in the script.
+3. Add the resource to your `server.cfg`:
+
+```plaintext
+ensure L-PasiveEnterprise
+```
+
+4. Restart your FiveM server or ensure the resource.
 
 ## Usage
 
-To use the script, run the following command in your terminal:
-
-```sh
-node script.js
-```
+To use the script, ensure your server is running and the resource is started. The script will automatically manage the passive enterprises.
 
 ## Images
 
